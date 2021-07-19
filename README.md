@@ -1,5 +1,2 @@
-# Litex
-Literature Review in Latex. Gather summaries of relevant papers into a literature review based on user specified tags.
-
 # LitMD
-Literature Review in Mark Down. Gather summaries of relevant papers into a literature review based on user specified tags. This is run by tag_herder and is much easier to write new paper files for than Litex. Also as it is a notebook it is easier to print all detected tags.
+Literature Review in Mark Down. Use `litmd_writer.ipynb` to write summaries of papers and define "tags" for topics. This are saved as markdown files which can easily be handled by `litmd_herder.ipynb`. `litmd_herder.ipynb` can be use to gather these tags into reviews or summarise all tags based on the number of papers and which tags cooccur as a network.
